@@ -1,0 +1,92 @@
+Propiedades (21-08-2011 14:21:43)
+id^nombre^mostrar^tipo^explicacion^sufijo^contenido^orden^grupo
+1^background-url^Imagen^body^Imagen para el fondo de la página^null^file^2^Body
+2^background-color^Color^body^Color de fondo del fondo de la página^null^color^1^Body
+3^xPos^Posición x^cloudCarousel^Posición en el eje horizontal del centro del anillo de imagenes^null^number min:0 max:3000 step:10 def:430^2^Layout
+4^xRadius^Radio x^cloudCarousel^Radio horizontal del anillo de imagenes^null^number min:0 max:3000 step:10 def:0^4^Layout
+5^yRadius^Radio y^cloudCarousel^Radio vertical del anillo de imagenes^null^number min:0 max:3000 step:10 def:30^5^Layout
+6^autoRotateDelay^Espera^cloudCarousel^Tiempo de espera entre fotos^null^number min:0 max:30 step:1 def:2^2^Animación
+7^altBox^Descripción^cloudCarousel^Mostrar u ocultar la descripción de la imagen^null^bool^1^Descripción
+8^titleBox^Título^cloudCarousel^Mostrar y ocultar el título de la imagen^null^bool^2^Descripción
+9^reflOpacity^Opacidad^cloudCarousel^Opacidad de los reflejos^null^number min:0 max:100 step:10 def:50^3^Reflejo
+10^maxH^Alto^cloudCarousel^Alto máximo del panel de fotos^null^number min:0 max:3000 step:10 def:350^2^Fotos
+11^maxW^Ancho^cloudCarousel^Ancho máximo del panel^null^number min:0 max:3000 step:10 def:400^1^Fotos
+12^reflGap^Separación^cloudCarousel^Separación entre la imagen y su reflejo^null^number min:0 max:30 step:1 def:0^2^Reflejo
+13^reflHeight^Alto^cloudCarousel^Alto de los reflejos^null^number min:80 max:300 step:5 def:80^1^Reflejo
+14^show_filmstrip^Mostrar^galleryView^Mostrar u ocultar las miniaturas^null^bool^1^Miniaturas
+15^show_filmstrip_nav^Mostrar flechas^galleryView^Mostrar u ocultar las flechas de navegación^null^bool^2^Miniaturas
+16^show_captions^Títulos^galleryView^Mostrar o no los títulos debajo de las miniaturas^null^bool^9^Miniaturas
+17^pointer_size^Puntero^galleryView^Tamaño del puntero^null^number min:0 max:30 step:1 def:10^10^Miniaturas
+18^border-style^Estilo de borde^galleryView^Tipo de borde^null^map solid:Solido,dotted:Punteado,dashed:Entrecortado,double:Doble,groove:Borde 3D grooved,ridge:Borde 3D ridged,inset:Borde 3D inset,outset:Borde 3D outset^4^Fotos
+19^panel_animation^Animación foto^galleryView^Animación de la transición de las fotos^null^map crossfade:Cross-fade,fade:Fade,slide:Slide,zoom:Zoom,none:Ninguna^1^Animación
+20^overlay_position^Ubicación info^galleryView^Ubicación del texto descriptivo de las fotos^null^map top:Arriba,bottom:Abajo^2^Descripción
+21^frame_opacity^Opacidad^galleryView^Opacidad de las miniaturas^null^number min:0 max:100 step:10 def:30^8^Miniaturas
+22^overlay_opacity^Opacidad^galleryView^Opacidad del cuadro de información^null^number min:0 max:100 step:10 def:80^4^Descripción
+23^border-color^Color borde^galleryView^Color del borde del panel de fotos^null^color^5^Fotos
+24^background-repeat^Repetición imagen^body^Determina si la imagen se debe repetir verticalmente, horizontalmente, en ambas direcciones, o en ninguna^null^map no-repeat:Ninguna,repeat-x:Horizontal,repeat-y:Vertical,Ambas:repeat^3^Body
+25^background-attachment^Scroll^body^Determina si el fondo es fijo o no^null^map fixed:Fijo,scroll:Scroll^4^Body
+26^background-position^Posición^body^La posición inicial del fondo^null^map top:Arriba,bottom:Abajo,left:Izquierda,right:Derecha,right top:Derecha arriba,left top:Izquierda arriba,right bottom:Derecha abajo,left bottom:Izquierda abajo,center top:Centro arriba,center center:Centro,center bottom:Centro abajo^5^Body
+27^border-width^Borde^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Grosor del border medido en pixeles.^px^number min:0 max:10 step:1 def:1^2^Formato
+28^padding-left^Padding izq.^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Espacio entre el borde izquierdo del contenedor y donde inicia el texto^px^number min:0 max:500 step:1 def:1^6^Formato
+29^color^Color fuente^nop editPag prop_Texto prop_Link^Color de la fuente^null^color^7^Fuente
+30^background^Fondo^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Color o imagen de fondo del elemento.^null^color^1^Color
+31^border-color^Color borde^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Color del borde.^null^color^3^Formato
+32^padding-top^Padding arriba^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Espacio entre el borde superior del contenedor y donde inicia el texto^px^number min:0 max:500 step:1 def:1^4^Formato
+33^width^Ancho^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Ancho del elemento medido en pixeles.^px^number min:40 max:1030 step:1 def:250^1^Tamaño
+34^top^Y^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Posición medida de arriba a abajo en pixeles.^px^number min:0 max:1030 step:1 def:0^1^Posición
+35^padding-bottom^Padding abajo^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Espacio entre el borde inferior del contenedor y donde inicia el texto^px^number min:0 max:500 step:1 def:1^5^Formato
+36^border-style^Estilo borde^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Es el tipo de linea del border. Ejemplo: dotted, solid^null^map solid:Solido,dotted:Punteado,dashed:Entrecortado,double:Doble,groove:Borde 3D grooved,ridge:Borde 3D ridged,inset:Borde 3D inset,outset:Borde 3D outset^1^Formato
+37^font-style^Estilo^nop editPag prop_Texto prop_Link^La propiedad estilo define como la fuente se muestra en una de tres formas: normal, itálica u oblicua (inclinada).^null^map normal:Normal,italic:Itálicas,oblique:Oblicuas^2^Fuente
+38^text-align^Alineación del texto^nop editPag prop_Texto prop_Link^Da la alineación del texto del elemento. Ejemplo: center,justify^null^map left:Izquierda,center:Centro,right:Derecha,justify:Justificar^8^Fuente
+39^font-weight^Peso^nop editPag prop_Texto prop_Link^La propiedad peso se usa para especificar el peso de la fuente. Ejemplo:600-900^null^number min:100 max:1000 step:100 def:100^6^Fuente
+40^font-size^Tamaño^nop editPag prop_Texto prop_Link^La propiedad tamaño se usa para modificar el tamaño de la fuente mostrada. Ejemplo: large , 12 , larger^px^number min:0 max:100 step:1 def:12^5^Fuente
+41^font-variant^Variante^nop editPag prop_Texto prop_Link^La propiedad variante determina si la fuente se muestra en mayúsculas tipo normal o pequeñas small-caps. Las small-caps se muestran cuando todas las letras de la palabra están en mayúsculas, con caracteres ligeramente más grandes que las minúsculas.^null^map normal:Normal,small-caps:Small Caps^3^Fuente
+42^padding-right^Padding derecho^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^spacio entre el borde derecho del contenedor y donde inicia el texto^px^number min:0 max:500 step:1 def:1^7^Formato
+43^random^Aleatorio^jcycle^Mostrar las fotos en orden aleatorio o no^null^bool^3^Fotos
+44^speed^Velocidad^cloudCarousel^Velocidad de la animación^null^number min:0 max:100 step:10 def:20^3^Animación
+45^navigation^Flechas^cloudCarousel^Mostrar o no las flechas de navegación^null^bool^6^Layout
+46^autoRotate^Dirección^cloudCarousel^Controla la dirección de la animación automática^null^map no:Ninguna,right:Derecha,left:Izquierda^1^Animación
+47^minScale^Tamaño mínimo^cloudCarousel^Tamaño de la foto más pequeña^null^number min:0 max:100 step:5 def:25^3^Fotos
+48^bringToFront^Traer al frente^cloudCarousel^Traer al frente la imagen al hacer click sobre ella^null^bool^4^Animación
+49^yPos^Posición y^cloudCarousel^Posición en el eje vertical del centro del anillo de imagenes^null^number min:0 max:3000 step:10 def:50^3^Layout
+50^background^Fondo^galleryView^Color del fondo del panel de las fotos^null^color^6^Fotos
+51^left^X^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Posición medida de izquierda a derecha en pixeles.^px^number min:0 max:1030 step:1 def:0^2^Posición
+52^height^Alto^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Alto del elemento medido en pixeles.^px^number min:40 max:1030 step:1 def:250^2^Tamaño
+53^z-index^Z-index^editPag prop_Texto prop_Link prop_Foto prop_Galeria prop_Vacio prop_Video prop_Articulo prop_GuestBook prop_Contenido^Especifica el orden de los elementos en el eje z, para determinar que elementos van encima de otros^null^number min:1 max:400 step:1 def:1^8^Formato
+54^font-family^Fuente^nop editPag prop_Texto prop_Link^Las familias de fuentes pueden asignarse por un nombre de fuente específica o por una familia de fuentes genérica. Obviamente, si define una fuente específica, no será tan probable de encontrar como una familia de fuente genérica. Puede hacer múltiples asignaciones de familias, y si hace una asignación de fuente específica, debería ser seguida por un nombre de familia genérica en el caso de que la primera selección no se halle presente.Una muestra de declaración de font-family podría ser así:"New Century Schoolbook", Times^null^map serif:Serif,sans-serif:Sans Serif,cursive:Cursive,fantasy:Fantasía,monospace:Monospace,Times New Roman:Times New Roman,Roman:Roman,Arial:Arial,Garamond:Garamond,Palatino:Palatino,Antiqua:Antiqua,Minion:Minion,Helvetica:Helvetica,Swiss:Swiss,Impact:Impact,Script:Script,Decorative:Decorative,Blackletter:Blackletter,Fraktur:Fraktur,Comic Sans:Comic Sans,Modern:Modern,Courier:Courier,Calibri:Calibri,Verdana:Verdana,Frosty:Frosty,Georgia:Georgia,Avqest:Avqest^1^Fuente
+55^text-decoration^Decoración^nop editPag prop_Texto prop_Link^Decoración del texto^null^map underline:Subrayado,overline:Línea arriba,line-through:Tachado,blink:Parpadeo^4^Fuente
+56^background-alpha^Transparencia^editPag prop_Texto prop_Link p^El porcentaje de transparencia del color de fondo (100% opaco, 0% transparente)^null^number min:0 max:100 step:10 def:100^2^Color
+57^fx^Efecto^jcycle^Efecto de transición entre las fotos^null^map blindX:Blind X,blindY:Blind Y,blindZ:Blind Z,cover:Cover,curtainX:Curtain X,curtainY:Curtain Y,fade:Fade,fadeZoom:Fade Zoom,growX:Grow X,growY:Grow Y,scrollUp:Scroll Up,scrollDown:Scroll Down,scrollLeft:Scroll Left,scrollRight:Scroll Right,scrollHorz:Scroll X,scrollVert:Scroll Y,shuffle:Shuffle,slideX:Slide X,slideY:Slide Y,toss:Toss,turnUp:Turn Up,turnDown:Turn Down,turnLeft:Turn Left,turnRight:Turn Right,uncover:Uncover,wipe:Wipe,zoom:Zoom^1^Animación
+58^timeout^Espera^jcycle^Tiempo de espera entre la transición de 2 fotos^null^number min:0 max:30 step:1 def:3^3^Animación
+59^font^Fuente^jcycle^Fuente de la descripción^null^map serif:Serif,sans-serif:Sans Serif,cursive:Cursive,fantasy:Fantasía,monospace:Monospace,Times New Roman:Times New Roman,Roman:Roman,Arial:Arial,Garamond:Garamond,Palatino:Palatino,Antiqua:Antiqua,Minion:Minion,Helvetica:Helvetica,Swiss:Swiss,Impact:Impact,Script:Script,Decorative:Decorative,Blackletter:Blackletter,Fraktur:Fraktur,Comic Sans:Comic Sans,Modern:Modern,Courier:Courier,Calibri:Calibri,Verdana:Verdana,Frosty:Frosty,Georgia:Georgia,Avqest:Avqest^0^Descripción
+60^delay^Delay^jcycle^Tiempo de delay^null^number min:0 max:30 step:1 def:0^4^Animación
+61^pause^Pausa^jcycle^Pausar o no la animación cuando el mouse pasa encima de la foto^null^bool^5^Animación
+62^info^Descripción^jcycle^Mostrar o no la descripción de la foto^null^bool^1^Descripción
+63^sync^Sincronizado^jcycle^Muestra las fotos sincrinzadas o no (sincronizadas al tiempo que sale una entra la siguiente, no sincronizada espera a que haya salido una antes de entrar la siguiente)^null^bool^2^Animación
+64^width^Ancho^jcycle^Ancho de las fotos (0 para mantener la proporción de la imagen)^null^number min:0 max:3000 step:10 def:350^1^Fotos
+65^height^Alto^jcycle^Alto de las fotos (0 para mantener la proporción de la imagen)^null^number min:0 max:3000 step:10 def:350^2^Fotos
+66^background^Fondo^jcycle^Color del fondo del panel de la descripción^null^color^2^Descripción
+67^font_color^Color letra^jcycle^Color de la letra de la descripción^null^color^3^Descripción
+68^background^Fondo^cloudCarousel^Color del fondo del panel de fotos^null^color^1^Layout
+69^desc_background^Fondo^cloudCarousel^Color de fondo del panel de la descripción^null^color^3^Descripción
+70^font_color^Color letra^cloudCarousel^Color de la letra de la descripción^null^color^4^Descripción
+71^panel_scale^Recortar^galleryView^Recortar o redimensionar las fotos^null^map crop:Recortar,nocrop:Redimensionar^7^Fotos
+72^show_panel_nav^Mostrar flechas^galleryView^Mostrar u ocultar flechas de navegación^null^bool^8^Fotos
+73^frame_height^Alto miniaturas^galleryView^El Alto de las miniaturas^null^number min:80 max:300 step:5 def:150^4^Miniaturas
+74^filmstrip_position^Ubicación^galleryView^Ubicación de las miniaturas^null^map top:Arriba,left:Izquierda,bottom:Abajo,right:Derecha^5^Miniaturas
+75^transition_interval^Espera^galleryView^Tiempo de espera entre fotos^null^number min:0 max:30 step:1 def:3^3^Animación
+76^frame_width^Ancho miniaturas^galleryView^El ancho de las miniaturas^null^number min:80 max:300 step:5 def:100^3^Miniaturas
+77^frame_scale^Recortar^galleryView^ecortar o redimensionar las miniaturas^null^map crop:Recortar,nocrop:Redimensionar^6^Miniaturas
+78^frame_gap^Espaciado^galleryView^Espacio entre las miniaturas^null^number min:5 max:30 step:1 def:10^7^Miniaturas
+79^pause_on_hover^Pausa^galleryView^Pausar la animación cuando el mouse pasa encima de las fotos^null^bool^2^Animación
+80^infoH^Alto^galleryView^Alto del cuadro de descripción^null^number min:0 max:300 step:10 def:50^3^Descripción
+81^border-width^Borde^galleryView^Grueso del borde del panel de fotos^null^number min:0 max:10 step:1 def:1^3^Fotos
+82^show_overlays^Mostrar^galleryView^Mostrar el texto descriptivo de las fotos^null^bool^1^Descripción
+83^panel_width^Ancho^galleryView^El ancho del panel de las fotos^null^number min:300 max:3000 step:10 def:350^1^Fotos
+84^panel_height^Alto^galleryView^El alto del panel de las fotos^null^number min:300 max:3000 step:10 def:350^2^Fotos
+85^maxX^Cant.Hor.^squares^Cantidad de cuadros horizontales^null^number min:1 max:6 step:1 def:3^1^Layout
+86^maxY^Cant.Vert.^squares^Cantidad de cuadros verticales^null^number min:1 max:6 step:1 def:3^2^Layout
+87^border^Borde^squares^Activar/desactivar el borde^null^bool^3^Layout
+88^cellspacing^Espacio^squares^Espacio entre las celdas^null^number min:0 max:6 step:1 def:0^4^Layout
+89^cellpadding^Margen^squares^Espacio entre el borde de la celda y su contenido^null^number min:0 max:6 step:1 def:0^5^Layout
+90^table-background^Fondo^squares^Fondo^null^color^5^Layout

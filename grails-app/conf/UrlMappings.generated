@@ -1,0 +1,119 @@
+
+//Controller: LayoutController.groovy
+"/layout/index"(controller:"layout", action:"index")
+"/layout/list"(controller:"layout", action:"list")
+"/layout/create"(controller:"layout", action:"create")
+"/layout/save"(controller:"layout", action:"save")
+"/layout/show"(controller:"layout", action:"show")
+"/layout/edit"(controller:"layout", action:"edit")
+"/layout/update"(controller:"layout", action:"update")
+"/layout/delete"(controller:"layout", action:"delete")
+
+//Controller: EditorController.groovy
+"/editor/index"(controller:"editor", action:"index")
+"/editor/uploader"(controller:"editor", action:"uploader")
+"/editor/upload"(controller:"editor", action:"upload")
+"/editor/menuPagina"(controller:"editor", action:"menuPagina")
+"/editor/editarPagina"(controller:"editor", action:"editarPagina")
+"/editor/guardarSeccionesPagina"(controller:"editor", action:"guardarSeccionesPagina")
+"/editor/rte"(controller:"editor", action:"rte")
+"/editor/guardarContenidoFrase"(controller:"editor", action:"guardarContenidoFrase")
+"/editor/nuevaSeccion"(controller:"editor", action:"nuevaSeccion")
+"/editor/nuevaPagina"(controller:"editor", action:"nuevaPagina")
+"/editor/propiedades"(controller:"editor", action:"propiedades")
+"/editor/guardarPagina"(controller:"editor", action:"guardarPagina")
+"/editor/editarSecciones"(controller:"editor", action:"editarSecciones")
+
+//Controller: GaleriaController.groovy
+"/galeria/index"(controller:"galeria", action:"index")
+"/galeria/list"(controller:"galeria", action:"list")
+"/galeria/create"(controller:"galeria", action:"create")
+"/galeria/save"(controller:"galeria", action:"save")
+"/galeria/show"(controller:"galeria", action:"show")
+"/galeria/edit"(controller:"galeria", action:"edit")
+"/galeria/update"(controller:"galeria", action:"update")
+"/galeria/delete"(controller:"galeria", action:"delete")
+
+//Controller: FraseController.groovy
+"/frase/index"(controller:"frase", action:"index")
+"/frase/list"(controller:"frase", action:"list")
+"/frase/create"(controller:"frase", action:"create")
+"/frase/save"(controller:"frase", action:"save")
+"/frase/show"(controller:"frase", action:"show")
+"/frase/edit"(controller:"frase", action:"edit")
+"/frase/update"(controller:"frase", action:"update")
+"/frase/delete"(controller:"frase", action:"delete")
+
+//Controller: ArticuloController.groovy
+"/articulo/index"(controller:"articulo", action:"index")
+"/articulo/list"(controller:"articulo", action:"list")
+"/articulo/create"(controller:"articulo", action:"create")
+"/articulo/save"(controller:"articulo", action:"save")
+"/articulo/show"(controller:"articulo", action:"show")
+"/articulo/edit"(controller:"articulo", action:"edit")
+"/articulo/update"(controller:"articulo", action:"update")
+"/articulo/delete"(controller:"articulo", action:"delete")
+
+//Controller: PropiedadesController.groovy
+"/propiedades/index"(controller:"propiedades", action:"index")
+"/propiedades/list"(controller:"propiedades", action:"list")
+"/propiedades/create"(controller:"propiedades", action:"create")
+"/propiedades/save"(controller:"propiedades", action:"save")
+"/propiedades/show"(controller:"propiedades", action:"show")
+"/propiedades/edit"(controller:"propiedades", action:"edit")
+"/propiedades/update"(controller:"propiedades", action:"update")
+"/propiedades/delete"(controller:"propiedades", action:"delete")
+
+//Controller: FotoController.groovy
+"/foto/index"(controller:"foto", action:"index")
+"/foto/list"(controller:"foto", action:"list")
+"/foto/create"(controller:"foto", action:"create")
+"/foto/save"(controller:"foto", action:"save")
+"/foto/show"(controller:"foto", action:"show")
+"/foto/edit"(controller:"foto", action:"edit")
+"/foto/update"(controller:"foto", action:"update")
+"/foto/delete"(controller:"foto", action:"delete")
+
+//Controller: IdiomaController.groovy
+"/idioma/index"(controller:"idioma", action:"index")
+"/idioma/list"(controller:"idioma", action:"list")
+"/idioma/create"(controller:"idioma", action:"create")
+"/idioma/save"(controller:"idioma", action:"save")
+"/idioma/show"(controller:"idioma", action:"show")
+"/idioma/edit"(controller:"idioma", action:"edit")
+"/idioma/update"(controller:"idioma", action:"update")
+"/idioma/delete"(controller:"idioma", action:"delete")
+
+//Controller: PaginaController.groovy
+"/fine/index"(controller:"pagina", action:"index")
+"/fine/list"(controller:"pagina", action:"list")
+"/fine/create"(controller:"pagina", action:"create")
+"/fine/save"(controller:"pagina", action:"save")
+"/fine/show"(controller:"pagina", action:"show")
+"/fine/edit"(controller:"pagina", action:"edit")
+"/fine/update"(controller:"pagina", action:"update")
+"/fine/delete"(controller:"pagina", action:"delete")
+
+//Controller: VideoController.groovy
+"/video/index"(controller:"video", action:"index")
+"/video/list"(controller:"video", action:"list")
+"/video/create"(controller:"video", action:"create")
+"/video/save"(controller:"video", action:"save")
+"/video/show"(controller:"video", action:"show")
+"/video/edit"(controller:"video", action:"edit")
+"/video/update"(controller:"video", action:"update")
+"/video/delete"(controller:"video", action:"delete")
+
+//Controller: SeccionController.groovy
+"/seccion/index"(controller:"seccion", action:"index")
+"/seccion/list"(controller:"seccion", action:"list")
+"/seccion/create"(controller:"seccion", action:"create")
+"/seccion/save"(controller:"seccion", action:"save")
+"/seccion/show"(controller:"seccion", action:"show")
+"/seccion/edit"(controller:"seccion", action:"edit")
+"/seccion/update"(controller:"seccion", action:"update")
+"/seccion/delete"(controller:"seccion", action:"delete")
+
+//Controller: PaginaWebController.groovy
+"/paginaWeb/index"(controller:"paginaWeb", action:"index")
+"/paginaWeb/show"(controller:"paginaWeb", action:"show")

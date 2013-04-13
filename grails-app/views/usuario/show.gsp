@@ -11,6 +11,7 @@
         <div class="nav" style="margin: 10px;">
             <span class="menuButton"><g:link class="list" action="list">Lista</g:link></span>
             <span class="menuButton"><g:link class="create" action="create">Nuevo usuario</g:link></span>
+            <span class="menuButton"><g:link class="edit" action="edit" id="${usuarioInstance.id}">Editar</g:link></span>
         </div>
 
         <div class="body">

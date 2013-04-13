@@ -103,6 +103,7 @@ class GuestbookController {
     }
 
     def saveConfig = {
+        println "saveconfig "+params
         def ids = ""
         def error = false
 
@@ -110,6 +111,7 @@ class GuestbookController {
 
         params.item.each { item ->
             def parts = item.split("\\^")
+            println "parts "+parts
             if (parts.size() == 5) {
                 def id = parts[0].trim()
                 def tipo = parts[1].trim()
@@ -125,7 +127,7 @@ class GuestbookController {
                 if (id != "" && id != " ") {
                     if (id != "-1" && id != -1) {
                         frase = Frase.get(id.toLong())
-                        println "update frase " + id + "   " + txt
+                        println "update frase " + id + "   " + txt+"  "+frase
                     } else {
                         println "create frase " + txt
                     }

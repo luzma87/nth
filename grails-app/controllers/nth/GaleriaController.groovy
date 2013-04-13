@@ -82,6 +82,7 @@ class GaleriaController extends Shield {
     }
 
     def delete = {
+        println "eliminar galeria "
         def galeriaInstance = Galeria.get(params.id)
         if (galeriaInstance) {
             try {
@@ -91,6 +92,7 @@ class GaleriaController extends Shield {
             }
             catch (org.springframework.dao.DataIntegrityViolationException e) {
                 flash.message = "${message(code: 'default.not.deleted.message', args: [message(code: 'galeria.label', default: 'Galeria'), params.id])}"
+                println "error "+e
                 redirect(action: "show", id: params.id)
             }
         }

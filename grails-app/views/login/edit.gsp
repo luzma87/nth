@@ -118,7 +118,7 @@
 
 
                 if ($("#divMsg").is("visible")) {
-                    console.log("SI");
+                    //console.log("SI");
                     $("#divMsg").effect("pulsate", {}, 1500, function () {
                         $("#divMsg").hide;
                     });

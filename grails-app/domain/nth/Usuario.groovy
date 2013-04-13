@@ -22,7 +22,7 @@ class Usuario {
         pass(blank: false, nullable: false, size: 1..255)
         email(blank: false, nullable: false, size: 6..50)
         fecha(blank: false, nullable: false)
-        estado(blank: false, nullable: false)
+        estado(blank: true, nullable: true)
     }
 
     static mapping = {

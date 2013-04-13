@@ -46,7 +46,7 @@
             <li title="Usar dise&ntilde;o" style="">
                 <a href="#" id="seccion">Usar dise&ntilde;o</a>
                 <ul class="subnav">
-                    <g:each in="${nth.Layout.list()}">
+                    <g:each in="${nth.Layout.findAllBySitio(session.sitio)}">
                         <li><a href="#" tipo="${it.id}" class="layout">${it}</a></li>
                     </g:each>
                 </ul>

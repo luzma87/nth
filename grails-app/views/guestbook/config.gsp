@@ -190,12 +190,13 @@
                                 }
                                 str += "item=" + id + "^" + tipo + "^" + txt + "^" + orden + "^" + tag;
                             });
+
                             //TODO: REVISAR ESTO!!!!
                             %{--str += "&seccion=${seccion.id}";--}%
                             $.ajax({
                                 type:"POST",
                                 url:"${createLink(action:"saveConfig")}",
-                                data:str,
+                                data:str+"&seccion=${seccion.id}",
                                 success:function (msg) {
                                     if (msg == "OK") {
                                         if (confirm("Se ha guardado correctamente. Desea cerrar la ventana?")) {

@@ -38,17 +38,23 @@ class LoginController {
 
         if (params.pass == "******") {
             params.remove("pass")
+        }else{
+            params.pass = encodeAsMD5(params.pass)
         }
 
         def usuario = Usuario.get(session.usuario.id)
         //session.usuario=null
+        if(!params.estado)
+            params.estado="A"
         usuario.properties = params
+
         if (usuario.save(flush: true)) {
             flash.message = "Cuenta actualizada exitosamente"
             flash.clase = "highlight"
             flash.icon = "info"
             session.usuario = usuario
         } else {
+            println "errores "+usuario.errors
             flash.message = "Ha ocurrido un error"
             flash.clase = "error"
             flash.icon = "alert"

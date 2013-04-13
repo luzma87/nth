@@ -232,8 +232,20 @@ class EditorGaleriasController extends Shield{
             foto.delete()
         }
 
+        Seccion.findAllByGaleria(gal).each {
+            it.delete()
+        }
+        Pagina.findAllByGaleria(gal).each {
+            it.galeria=null
+            it.save(flush: true)
+        }
+
         // elimina gal
-        gal.delete()
+        try{
+            gal.delete()
+        }catch(e){
+            println "error "+e
+        }
 
         render("OK")
     }

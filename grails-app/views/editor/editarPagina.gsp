@@ -48,7 +48,7 @@
         <ul id="ulMenu" class="topnav ui-corner-all"
             style="position:absolute; top:2px;z-index:9999;font    : 14px Arial, Verdana, Sans-Serif;">
             <li><a href="#" id="guardar">Guardar</a></li>
-            <li><a href="#" rel="prettyPhoto[iframe]" id="ver">Ver página</a></li>
+
             <li>
                 <a href="#" id="seccion">Insertar sección</a>
                 <ul class="subnav">
